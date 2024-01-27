@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>STEM KFS</title>
+  <meta content="STEM KFS is a prestigious Egyptian public high school dedicated to delivering exceptional education to highly motivated students." name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/Blue_Gold_Elegant_Clean_Badge_University_Losfhshsfhgo-removebg-preview.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9ebf9c35ec.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/nav.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+  <style>
+ @font-face {
+  font-family: 'Lemon Milk';
+  src: url('assets/fonts/LemonMilkBold-gx2B3.woff') format('woff'),
+       url('assets/fonts/LemonMilkBoldItalic-PKZ3P.woff') format('woff'),
+       url('assets/fonts/LemonMilkLight-owxMq.woff') format('woff'),
+       url('assets/fonts/LemonMilkMedium-mLZYV.woff') format('woff'),
+       url('assets/fonts/LemonMilkMediumItalic-d95nl.woff') format('woff'),
+       url('assets/fonts/LemonMilkRegular-X3XE2.woff') format('woff'), 
+       url('assets/fonts/LemonMilkRegularItalic-L3AEy.woff') format('woff');
+  /* Adjust the path and filenames based on the actual font files you have */
+}
+
+    body {
+      margin: 0;
+      padding: 0; 
+    }
+    
+    .hero {
+      height: 100vh; /* Adjust to desired height */
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .text-center-middle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.8); /* Light background color */
+      z-index: -1;
+    }
+    
+    .text-center-middle h2,
+    .text-center-middle p {
+      color: #fff; /* White font color */
+      font-size: 24px; /* Adjust to desired font size */
+    }
+    .imglogo{
+      width: 300px;
+      min-height: 120px;
+      margin-top:10px;
+    }
+    
+  .logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; /* Adjust the margin-top to position the logos lower */
+}
+#testimonial_area {
+	padding: 10% 0;
+}
+.box-area {
+	padding: 30px;
+	position: relative;
+	display: block;
+	background: #fff;
+	color: #000;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	margin: 40px 0;
+}
+.box-area h5 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #0a69ed;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+    
+}
+.box-area span {
+	color: #262626;
+	display: block;
+	font-size: 13px;
+	margin: 0 0 10px;
+	font-weight: 400;
+}
+.box-area .content {
+	color: #262626;
+}
+.box-area .img-area {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: -40px;
+	left: 0;
+	bottom: 0;
+	margin: 0 auto;
+	right: 0;
+	z-index: 1;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-area .img-area img {
+	width: 80%;
+	height: auto;
+	border-radius: 50%;
+}
+.socials {
+	margin-top: 30px;
+}
+.socials i {
+	margin: 0 10px;
+	color: #0a69ed;
+	font-size: 18px;
+}
+#testimonial_area .owl-nav {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+#testimonial_area .owl-prev, #testimonial_area .owl-next {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	color: #0a69ed;
+	border-radius: 50%;
+	text-align: center;
+	background: #fff;
+	position: absolute;
+}
+#testimonial_area .owl-prev {
+	left: -60px;
+	top: -30px;
+}
+#testimonial_area .owl-next {
+	right: -60px;
+	top: -30px;
+}
+@media only screen and (max-width: 991px) {
+	.owl-nav {
+		display: none;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.box-area {
+		text-align: center;
+	}
+	.owl-nav {
+		display: none;
+	}
+}
+table {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-collapse: collapse;
+        width: 800px;
+        height: 200px;
+        border: 1px solid #bdc3c7;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+tr {
+        transition: all .2s ease-in;
+        cursor: pointer;
+    }
+th,
+    td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    
+#headerss {
+        background-color: #0B0B15;
+        color: #fff;
+    }
+    
+tr:hover {
+        background-color: #f5f5f5;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+  
+    @media only screen and (max-width: 768px) {
+        table {
+            width: 90%;
+        }
+    }
+</style>
+
+
+</head>
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+    
+        <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img class="imglogo" src="assets/img/STEM-KFS-white-benner.png" alt="">
+          <!-- <h1 style="font-family: 'Ubuntu', sans-serif; font-weight: 700; " >STEM KFS<span></span></h1> -->
+        </a>
+    
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a style="font-family: 'Lemon Milk', sans-serif; font-size: 15px;" href="Home.html">Home</a></li>
+            <li><a style="font-family: 'Lemon Milk', sans-serif; font-size: 15px;" href="about.html" target="_blank">About</a></li>
+            <li><a style="font-family: 'Lemon Milk', sans-serif; font-size: 15px;" href="">Academics</a></li>
+            <li><a style="font-family: 'Lemon Milk', sans-serif; font-size: 15px;" href="extra.html">Extracurriculars</a></li>
+            <li><a style="font-family: 'Lemon Milk', sans-serif; font-size: 15px;" href="#khaled">Alumni</a></li>
+            <li><a style="font-family: 'Lemon Milk', sans-serif; font-size: 15px;" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+    
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+    
+      </div>
+    </header>
+    <!-- End Header -->
+   <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center section-bg" style="background-image: url('assets/img/School-Pic-dark.png'); height: 75vh; background-attachment: fixed;">
+    <div class="container">
+      <div class="row justify-content-center gy-5">
+        <div class="col-lg-12 text-center text-lg-start">
+          <div class="overlay"></div>
+          <div class="d-flex flex-column align-items-start justify-content-end text-left text-bottom" style="height: 75vh;">
+            <h2 style="font-family: 'Lemon Milk Light', sans-serif; color: white; font-size: 25px; margin-left: 20px; margin-bottom: 40px;  line-height: 80px;" data-aos="fade-up">
+              <span style="color: white; font-size: 40px; font-family: 'Lemon Milk', sans-serif; margin-left:100px;">Academics</span> <br>
+              <span style="color: white; font-size: 20px; font-weight: 100; font-family: 'Lemon Milk Light', sans-serif; margin-left: 100px; display: inline-block; max-width: 85%;">Academic and grading systems information</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- end of hero -->
+    <!-- ======= what you will learn Section ======= -->
+    <section id="testimonial_area" class="section_padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>What you will learn</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="testmonial_slider_area text-center owl-carousel">
+                        <div class="box-area">	
+                            <h5><i style="font-size: 60px; color: black;" class="fa-solid fa-book"></i> <span class="icon-text" style="margin-top: 30px; font-family: Lemon Milk, sans-serif;">Research</span></h5>
+                            								
+                            <p class="content">
+                                Lorem Ipsum is simply dummy text of the printing and 
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+                                ever since
+                            </p>
+                           
+                        </div> 
+    
+                        <div class="box-area">	
+                            <h5><i style="font-size: 60px; color: black;" class="fa-solid fa-person-chalkboard"></i> <span style="margin-top: 30px; font-family: Lemon Milk, sans-serif;" class="icon-text">Presentation</span></h5>
+                            									
+                            <p class="content">
+                                Lorem Ipsum is simply dummy text of the printing and 
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+                                ever since
+                            </p>
+                            
+                        </div> 
+    
+                        <div class="box-area">	
+                            <h5><i style="font-size: 60px; color: black;" class="fa-solid fa-handshake-angle"></i> <span style="margin-top: 30px; font-family: Lemon Milk, sans-serif;" class="icon-text">Team work</span></h5>
+                            								
+                            <p class="content">
+                                Lorem Ipsum is simply dummy text of the printing and 
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+                                ever since
+                            </p>
+                            
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- end -->
+     <section style="background-color: #F0F0F0;" id="about" class="about">
+        <div class="container" data-aos="fade-up">
+      
+          <div class="section-header">
+            <h2 style="font-family: Lemon Milk, sans-serif; color: black;">Our Curriculum</h2>
+            
+          </div>
+      
+          <div class="row gy-4">
+            <div class=" d-flex align-items-center  about-content" data-aos="fade-up" data-aos-delay="300">
+              <div class="content ">
+                <p class="fst-italic">
+                  STEM High School for Boys - STEM KFS, ranked as Egypt's best high school, was established through a partnership between the U.S. Agency for International Development (USAID), World Learning, and the ECASE project. The school aims to provide technical assistance to the Ministry of Education in Egypt and focuses on scientific, mathematical, and technological fields. It caters to high-potential students who exhibit strong academic skills.
+      
+                  At STEM High School, students benefit from a unique educational system led by professors engaged in post-teacher studies. The curriculum emphasizes critical inquiry, research, problem-solving skills, intellectual curiosity, and social responsibility. As the first school of its kind in Egypt, STEM High School welcomes applicants from various governorates, including Cairo, Giza, Qalubia, Fayoum, and Bani Souwaif, as well as neighboring cities.
+                </p>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+      <!-- end -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+      
+          <div class="section-header">
+            <h2 style="font-family: Lemon Milk, sans-serif; color: black;">Grading system</h2>
+            <p style="font-family: Lemon Milk, sans-serif; font-size: 12px; margin-top: 12px;">Courses</p>
+          </div>
+      
+          <div class="row gy-4">
+            <div class="d-flex align-items-center about-content" data-aos="fade-up" data-aos-delay="300">
+              <div class="content">
+                <p class="fst-italic">
+                  STEM High School for Boys - STEM KFS, ranked as Egypt's best high school, was established through a partnership between the U.S. Agency for International Development (USAID), World Learning, and the ECASE project. The school aims to provide technical assistance to the Ministry of Education in Egypt and focuses on scientific, mathematical, and technological fields. It caters to high-potential students who exhibit strong academic skills.
+      
+                  At STEM High School, students benefit from a unique educational system led by professors engaged in post-teacher studies. The curriculum emphasizes critical inquiry, research, problem-solving skills, intellectual curiosity, and social responsibility. As the first school of its kind in Egypt, STEM High School welcomes applicants from various governorates, including Cairo, Giza, Qalubia, Fayoum, and Bani Souwaif, as well as neighboring cities.
+                </p>
+              </div>
+              <div class=" position-relative about-img order-lg-1" data-aos="fade-up" data-aos-delay="150">
+                <table>
+                    <tr id="headerss">
+                        <th>COURSE</th>
+                        <th>TYPE</th>
+                        <th>CREDITS</th>
+                        <th>COURSE</th>
+                        <th>TYPE</th>
+                        <th>CREDITS</th>
+                    </tr>
+                    <tr>
+                        <td>Arabic </td>
+                        <td>Regular </td>
+                        <td>3 </td>
+                        <td>Civics </td>
+                        <td>Regular </td>
+                        <td>3</td>
+            
+                    </tr>
+                    <tr>
+                        <td>Second language </td>
+                        <td>Regular </td>
+                        <td>3 </td>
+                        <td>Technology </td>
+                        <td>Regular </td>
+                        <td>2</td>
+            
+                    </tr>
+                    <tr>
+                        <td>Mathematics </td>
+                        <td>Honors </td>
+                        <td>3 </td>
+                        <td>Religion </td>
+                        <td>Regular </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Mechanics </td>
+                        <td>Honors </td>
+                        <td>3 </td>
+                        <td>Physics </td>
+                        <td>Honors </td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Biology </td>
+                        <td>Honors </td>
+                        <td>4 </td>
+                        <td>Chemistry </td>
+                        <td>Honors </td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Geology </td>
+                        <td>Honors </td>
+                        <td>4 </td>
+                        <td>Social Studies </td>
+                        <td>Regular </td>
+                        <td>3</td>
+                    </tr>
+            
+                </table>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+      
+          <div class="section-header">
+            <h2 style="font-family: Lemon Milk, sans-serif; color: black;">Grading system</h2>
+            <p style="font-family: Lemon Milk, sans-serif; font-size: 12px; margin-top: 12px;">Grades</p>
+          </div>
+      
+          <div class="row gy-4">
+            <div class="d-flex align-items-center about-content" data-aos="fade-up" data-aos-delay="300">
+              <div class="content">
+                <p class="fst-italic">
+                  STEM High School for Boys - STEM KFS, ranked as Egypt's best high school, was established through a partnership between the U.S. Agency for International Development (USAID), World Learning, and the ECASE project. The school aims to provide technical assistance to the Ministry of Education in Egypt and focuses on scientific, mathematical, and technological fields. It caters to high-potential students who exhibit strong academic skills.
+      
+                  At STEM High School, students benefit from a unique educational system led by professors engaged in post-teacher studies. The curriculum emphasizes critical inquiry, research, problem-solving skills, intellectual curiosity, and social responsibility. As the first school of its kind in Egypt, STEM High School welcomes applicants from various governorates, including Cairo, Giza, Qalubia, Fayoum, and Bani Souwaif, as well as neighboring cities.
+                </p>
+              </div>
+              <div class=" position-relative about-img order-lg-1" data-aos="fade-up" data-aos-delay="150">
+                <table>
+                    <tr id="headerss">
+                        <th>Grade</th>
+                        <th>Range in percentage</th>
+                        
+                    </tr>
+                    <tr>
+                        <td>A+</td>
+                        <td>95% - 100% </td>
+                        
+            
+                    </tr>
+                    <tr>
+                        <td>A </td>
+                        <td>90% - 95% </td>
+                        
+            
+                    </tr>
+                    <tr>
+                        <td>B+ </td>
+                        <td>85% - 90% </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>B </td>
+                        <td>80% - 85% </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>C+ </td>
+                        <td>75% - 80% </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>C </td>
+                        <td>70% - 75% </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>D+ </td>
+                        <td>65% - 70% </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>D </td>
+                        <td>60% - 65% </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>F </td>
+                        <td>Below 60% </td>
+                        
+                    </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+    <footer id="footer" class="footer">
+
+        <div class="container">
+          <div class="row gy-3">
+            <div class="col-lg-3 col-md-6 d-flex">
+              <i class="bi bi-geo-alt icon"></i>
+              <div>
+                <h4>Address</h4>
+                <p>
+                  Kafr el-sheikh, <br>
+                  Mogama el madares<br>
+                </p>
+              </div>
+    
+            </div>
+    
+            <div class="col-lg-3 col-md-6 footer-links d-flex">
+              <i class="bi bi-telephone icon"></i>
+              <div>
+                <h4>Contact </h4>
+                <p>
+                  <strong>Phone:</strong> 002(0)473254944<br>
+                  <strong>Email:</strong> ksheikhsch@stemksheikh.moe.edu.eg<br>
+                </p>
+              </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 footer-links d-flex">
+              <i class="bi bi-clock icon"></i>
+              <div>
+                <h4>Opening Hours</h4>
+                <p>
+                  <strong>Sunday-Thursday</strong> 8AM - 3PM<br>
+                  Friday: Closed
+                </p>
+              </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Follow Us</h4>
+              <div class="social-links d-flex">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+        
+      
+      </footer><!-- End Footer -->
+      <!-- End Footer -->
+    
+      <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    
+      <div id="preloader"></div>
+    
+      <!-- Vendor JS Files -->
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/aos/aos.js"></script>
+      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <script src="assets/vendor/php-email-form/validate.js"></script>
+    
+      <!-- Template Main JS File -->
+      <script src="assets/js/main.js"></script>
+      <script src="assets/js/nav.js">
+      
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+      <script>
+      $(".testmonial_slider_area").owlCarousel({
+              autoplay: true,
+              slideSpeed:1000,
+              items : 3,
+              loop: false,
+              nav:false,
+              navText:['<i class="fa fa-arrow-left"></i>','<i class="fa fa-arrow-right"></i>'],
+              margin: 30,
+              dots: true,
+              responsive:{
+                  320:{
+                      items:1
+                  },
+                  767:{
+                      items:2
+                  },
+                  600:{
+                      items:2
+                  },
+                  1000:{
+                      items:3
+                  }
+              }
+              
+          });
+  </script>
+    </html>  

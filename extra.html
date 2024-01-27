@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>STEM KFS</title>
+  <meta content="STEM KFS is a prestigious Egyptian public high school dedicated to delivering exceptional education to highly motivated students." name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/Blue_Gold_Elegant_Clean_Badge_University_Losfhshsfhgo-removebg-preview.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+  <!-- Template Main CSS File -->
+  <link href="assets/css/nav.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  
+  <style>
+ @font-face {
+  font-family: 'Lemon Milk';
+  src: url('assets/fonts/LemonMilkBold-gx2B3.woff') format('woff'),
+       url('assets/fonts/LemonMilkBoldItalic-PKZ3P.woff') format('woff'),
+       url('assets/fonts/LemonMilkLight-owxMq.woff') format('woff'),
+       url('assets/fonts/LemonMilkMedium-mLZYV.woff') format('woff'),
+       url('assets/fonts/LemonMilkMediumItalic-d95nl.woff') format('woff'),
+       url('assets/fonts/LemonMilkRegular-X3XE2.woff') format('woff'), 
+       url('assets/fonts/LemonMilkRegularItalic-L3AEy.woff') format('woff');
+  /* Adjust the path and filenames based on the actual font files you have */
+}
+
+    body {
+      margin: 0;
+      padding: 0; 
+    }
+    
+    .hero {
+      height: 100vh; /* Adjust to desired height */
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .text-center-middle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.8); /* Light background color */
+      z-index: -1;
+    }
+    
+    .text-center-middle h2,
+    .text-center-middle p {
+      color: #fff; /* White font color */
+      font-size: 24px; /* Adjust to desired font size */
+    }
+    .imglogo{
+      width: 300px;
+      min-height: 120px;
+      margin-top:10px;
+    }
+    
+  .logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; /* Adjust the margin-top to position the logos lower */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.timeline-section{
+	background-color: white;
+	min-height: 100vh;
+	padding: 100px 15px;
+}
+.timeline-items{
+	max-width: 1000px;
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+.timeline-items::before{
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	background-color: #2f363e;
+	left: calc(50% - 1px);
+}
+.timeline-item{
+	margin-bottom: 40px;
+	width: 100%;
+	position: relative;
+}
+.timeline-item:last-child{
+	margin-bottom: 0;
+}
+.timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30px);
+	text-align: right;
+}
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 30px);
+}
+.timeline-dot{
+	height: 16px;
+	width: 16px;
+	background-color: #121212;
+	position: absolute;
+	left: calc(50% - 8px);
+	border-radius: 50%;
+	top:10px;
+}
+.timeline-date{
+	font-size: 18px;
+	color: #eaa023;
+	margin:6px 0 15px;
+}
+.timeline-content{
+    background-color: #1C1A3C;
+	padding: 30px;
+	border-radius: 5px;
+}
+.timeline-content h3{
+    font-size: 20px;
+	color: #ffffff;
+	margin:0 0 10px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.timeline-content p{
+    color: #c8c8c8;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+/* responsive */
+@media(max-width: 767px){
+	.timeline-items::before{
+		left: 7px;
+	}
+	.timeline-item:nth-child(odd){
+		padding-right: 0;
+		text-align: left;
+	}
+	.timeline-item:nth-child(odd),
+	.timeline-item:nth-child(even){
+		padding-left: 37px;
+	}
+	.timeline-dot{
+		left:0;
+	}
+}
+</style>
+
+
+</head>
+<body>
+
+     <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+  
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img class="imglogo" src="assets/img/STEM-KFS-white-benner.png" alt="">
+        <!-- <h1 style="font-family: 'Ubuntu', sans-serif; font-weight: 700; " >STEM KFS<span></span></h1> -->
+      </a>
+  
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a style="font-family: 'Lemon Milk', sans-serif; font-size: 15px;" href="Home.html">Home</a></li>
+          <li><a style="font-family: 'Lemon Milk', sans-serif; font-size: 15px;" href="about.html" target="_blank">About</a></li>
+          <li><a style="font-family: 'Lemon Milk', sans-serif; font-size: 15px;" href="academics.html">Academics</a></li>
+          <li><a style="font-family: 'Lemon Milk', sans-serif; font-size: 15px;" href="">Extracurriculars</a></li>
+          <li><a style="font-family: 'Lemon Milk', sans-serif; font-size: 15px;" href="">Alumni</a></li>
+          <li><a style="font-family: 'Lemon Milk', sans-serif; font-size: 15px;" href="">Contact</a></li>
+        </ul>
+      </nav>
+  
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+  
+    </div>
+  </header>
+  <!-- End Header -->
+    <!-- End Header -->
+    
+   <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center section-bg" style="background-image: url('assets/img/School-Pic-dark.png'); height: 75vh; background-attachment: fixed;">
+    <div class="container">
+      <div class="row justify-content-center gy-5">
+        <div class="col-lg-12 text-center text-lg-start">
+          <div class="overlay"></div>
+          <div class="d-flex flex-column align-items-start justify-content-end text-left text-bottom" style="height: 75vh;">
+            <h2 style="font-family: 'Lemon Milk Light', sans-serif; color: white; font-size: 25px; margin-left: 20px; margin-bottom: 40px;  line-height: 80px;" data-aos="fade-up">
+              <span style="color: white; font-size: 40px; font-family: 'Lemon Milk', sans-serif; margin-left:100px;">Extracurriculars</span> <br>
+              <span style="color: white; font-size: 20px; font-weight: 100; font-family: 'Lemon Milk Light', sans-serif; margin-left: 100px; display: inline-block; max-width: 85%;">Our excellent students</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- end of hero -->
+     <!-- ======= Timeline Section ======= -->
+     <section class="timeline-section">
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date"></div>
+          <div class="timeline-content">
+            <h3>Competition Name</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date"></div>
+          <div class="timeline-content" style="background-color: #F0F0F0;">
+            <h3 style="color: black;">Competition Name</h3>
+            <p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date"></div>
+          <div class="timeline-content">
+            <h3>Competition Name</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date"></div>
+          <div class="timeline-content" style="background-color: #F0F0F0;">
+            <h3 style="color: black;">Competition Name</h3>
+            <p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date"></div>
+          <div class="timeline-content">
+            <h3>Competition Name</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date"></div>
+          <div class="timeline-content" style="background-color: #F0F0F0;">
+            <h3 style="color: black;">Competition Name</h3>
+            <p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date"></div>
+          <div class="timeline-content" >
+            <h3>Competition Name</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- end -->
+<section id="events" class="events" style="padding:-80px;">
+  <div class="container-fluid" data-aos="fade-up">
+
+    <div class="section-header">
+      <h2>Extracurriculars</h2>
+      <p>Our exceptional students</p>
+    </div>
+
+    <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/Oday.jpg)">
+          <h3>ISEF Competition</h3>
+          <div class="price align-self-start">First Place</div>
+          <p class="description">
+            Oday Elaraby - Yousef Sanafawy
+          </p>
+        </div><!-- End Event item -->
+
+        <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/naira.jpg)">
+          <h3>ISEF Competition</h3>
+          <div class="price align-self-start">First Place</div>
+          <p class="description">
+            Yasmeen Ibrahim - Naira Elzanaty
+          </p>
+        </div><!-- End Event item -->
+
+        <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/WaelWael.jpg)">
+          <h3>Siemens Innovation 4 sustainability<br>Rise Global</h3>
+          <div class="price align-self-start">Third place<br>Global 500</div>
+          <p class="description">
+            Ahmed Wael
+          </p>
+        </div><!-- End Event item -->
+
+        <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/menna.jpg)">
+          <h3>ISEF Competition</h3>
+          <div class="price align-self-start">First place - ticket to USA</div>
+          <p class="description">
+            Menna Dahab - Nour Darwish
+          </p>
+        </div><!-- End Event item -->
+
+        <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/nagar.jpg)">
+          <h3>Egypt Career Summit 2023</h3>
+          <div class="price align-self-start">First place</div>
+          <p class="description">
+            Ahmed Elnagar
+          </p>
+        </div><!-- End Event item -->
+
+        <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/IOT.jpg)">
+          <h3>IOT & AI Competition</h3>
+          <div class="price align-self-start">Third place</div>
+          <p class="description">
+            Menna Dahab - Nour Darwish
+          </p>
+        </div><!-- End Event item -->
+        <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/zbedir.jpg);">
+          <h3>DECI geeks</h3>
+          <div class="price align-self-start">First place</div>
+          <p class="description">
+            Abdullah Elazab - Nooreldin Hamdy <br> Shahd Elazab - Mariam Arafa
+          </p>
+        </div><!-- End Event item -->
+
+        <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/tarek.jpeg)">
+          <h3>IAAC</h3>
+          <div class="price align-self-start">Official ambassador </div>
+          <p class="description">
+            Yousef Tarek
+          </p>
+        </div><!-- End Event item -->
+
+      </div><!-- End swiper-wrapper -->
+    </div><!-- End slides-3 swiper -->
+
+  </div><!-- End container-fluid -->
+</section>
+
+    <footer id="footer" class="footer">
+
+        <div class="container">
+          <div class="row gy-3">
+            <div class="col-lg-3 col-md-6 d-flex">
+              <i class="bi bi-geo-alt icon"></i>
+              <div>
+                <h4>Address</h4>
+                <p>
+                  Kafr el-sheikh, <br>
+                  Mogama el madares<br>
+                </p>
+              </div>
+    
+            </div>
+    
+            <div class="col-lg-3 col-md-6 footer-links d-flex">
+              <i class="bi bi-telephone icon"></i>
+              <div>
+                <h4>Contact </h4>
+                <p>
+                  <strong>Phone:</strong> 002(0)473254944<br>
+                  <strong>Email:</strong> ksheikhsch@stemksheikh.moe.edu.eg<br>
+                </p>
+              </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 footer-links d-flex">
+              <i class="bi bi-clock icon"></i>
+              <div>
+                <h4>Opening Hours</h4>
+                <p>
+                  <strong>Sunday-Thursday</strong> 8AM - 3PM<br>
+                  Friday: Closed
+                </p>
+              </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Follow Us</h4>
+              <div class="social-links d-flex">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      
+      
+    
+      </footer><!-- End Footer -->
+      <!-- End Footer -->
+    
+      <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    
+      <div id="preloader"></div>
+    
+      <!-- Vendor JS Files -->
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/aos/aos.js"></script>
+      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <script src="assets/vendor/php-email-form/validate.js"></script>
+    
+      <!-- Template Main JS File -->
+      <script src="assets/js/main.js"></script>
+      <script src="assets/js/nav.js">
+      
+      </script>
+    </body>
+    
+    </html>  

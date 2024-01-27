@@ -1,0 +1,20 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    transition: background-color 0.3s ease-in-out;
+    background-color: transparent; /* Set initial transparent background */
+  }
+  
+  header.scrolled {
+    background-color: #fff; /* Change to desired background color on scroll */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow when scrolled */
+  }
+  
+  .header .logo h1 {
+    color: #fff; /* Set logo color to white */
+  }
+  
+  /* Add any other styles for the navigation bar */
